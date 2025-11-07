@@ -4,29 +4,6 @@ A professional static website for Steep Works, a specialist civil
 engineering company based in Christchurch, Canterbury, specializing in 
 spider digger technology for challenging terrain excavation.
 
-## Overview
-
-This website showcases Steep Works' services, projects, and expertise 
-in excavation, drilling, trenching, landscaping, and demolition using 
-advanced spider digger equipment.
-
-## Website Structure
-
-- **index.html** - Homepage with hero section, services overview, and 
-featured projects
-- **about.html** - Company information, leadership team, and core values
-- **gallery.html** - Project gallery with filtering by category 
-(residential, commercial, renovation)
-- **contact.html** - Contact form and company contact information
-
-## Features
-
-- Fully responsive design using Bootstrap 5
-- Interactive image gallery with Lightbox2
-- Filter functionality for project categories
-- Smooth scrolling and animations
-- Modern, professional design
-- Mobile-friendly navigation
 
 ## GitHub Pages Deployment
 
@@ -152,13 +129,6 @@ For more information, see `includes/README.md`.
 ## License
 
 See LICENSE file for details.
-
-## Contact
-
-**Steep Works**
-- Email: projects@steepworks.co.nz
-- Location: Christchurch, Canterbury 8022, NZ
-- Facebook: https://www.facebook.com/SteepWorks
 
 ---
 
