@@ -121,13 +121,33 @@ steepworks-website/
 │   │   └── style.css
 │   └── js/
 │       ├── gallery.js
-│       └── main.js
+│       ├── main.js
+│       └── components.js (optional dynamic loader)
 ├── static/
 │   └── img/
 │       └── [project images]
 └── includes/
+    ├── header.html (reusable header component)
+    ├── footer.html (reusable footer component)
+    ├── config.json (site configuration)
+    ├── README.md (includes documentation)
     └── [legacy PHP files - not used in HTML version]
 ```
+
+## Components & Includes
+
+The `includes/` directory contains reusable HTML components:
+
+- **header.html** - Navigation header (reference copy)
+- **footer.html** - Site footer (reference copy)
+- **config.json** - Site configuration in JSON format
+
+**Note:** The current implementation has header/footer embedded 
+directly in each HTML page for optimal GitHub Pages compatibility. 
+The includes/ files serve as reference and can be used with dynamic 
+loading if serving from a web server.
+
+For more information, see `includes/README.md`.
 
 ## License
 
